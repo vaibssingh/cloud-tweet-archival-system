@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+      <title>Tweet Archival</title>
+</head>
+
+<body>
+   <p>Search results for your term:</p>
+   <ul>
+      {% for tweet in tweets %}
+
+      <li>{{tweet.text}}</li>
+
+      {% endfor %}
+   </ul>
+
+   <p>Previous searches: </p>
+   <ul>
+      {% for terms in search_terms %}
+      
+      <a href="{{ url_for('history', type = terms)}}">
+         <li>{{ terms }}</li>
+      </a>
+
+      {% endfor %}
+   </ul>
+
+</body>
+
+</html>
