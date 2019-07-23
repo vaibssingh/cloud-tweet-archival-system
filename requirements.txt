@@ -1,4 +1,4 @@
-Flask==0.12.4
+Flask>=1.0.0
 Werkzeug<0.13.0,>=0.12.0
 tweepy==3.7.0
 firebase_admin==2.17.0
