@@ -1,5 +1,5 @@
-# Vaibhav Singh Archival
-Using this application you can search and view latest 30 tweets for any term and have the application store tweets for the searched term each hour automatically and view the collection of tweets while you were away!
+# Tweet Archival
+Using this application you can search and view latest 30 tweets for any term and have the application store tweets for the previously searched term each hour automatically. You can then view the collection of tweets that came in  for your favourite topics while you were away!
 
 ### Tech Stack
 This application has been developed with Python3 as backend, Flask as the frontend and Firestore for data storage.
