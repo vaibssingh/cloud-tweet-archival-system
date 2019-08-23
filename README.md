@@ -1,6 +1,8 @@
 # Tweet Archival
 Using this application you can search and view latest 30 tweets for any term and have the application store tweets for the previously searched term each hour automatically. You can then view the collection of tweets that came in  for your favourite topics while you were away!
 
+[![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/vaibssingh/cloud-tweet-archival-system.git)
+
 ### Tech Stack
 This application has been developed with Python3 as backend, Flask as the frontend and Firestore for data storage.
 It also uses 'tweepy' module for getting tweets using Twitter api. You can read about tweepy and how to set it up for your application [here](https://tweepy.readthedocs.io/en/latest/)
